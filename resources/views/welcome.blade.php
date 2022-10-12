@@ -31,9 +31,6 @@
 
         <button>Enviar Cadastro</button>
     </form>
-
-
-
 </body>
 
 </html>

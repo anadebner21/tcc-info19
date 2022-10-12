@@ -10,4 +10,5 @@ class Cliente extends Model
     use HasFactory;
 
     protected $fillable = ['nome', 'cpf_cnpj', 'endereco', 'email', 'telefone'];
+    
 }
