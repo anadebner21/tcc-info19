@@ -19,5 +19,5 @@ Route::post('/cadastrar-cliente', function(Request $dados){
 
     ]);
     echo "Cliente cadastrado com sucesso!";
-
+    
 });

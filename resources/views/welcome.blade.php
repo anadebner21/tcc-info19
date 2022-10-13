@@ -7,13 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clientes</title>
 </head>
-
 <body>
 
     <form action="/cadastrar-cliente" method="POST">
 
         @csrf
-        <label for="">Nome:</label>
+        <label for="">Nome:</label> 
         <input type="text" placeholder="Digite o nome do cliente ou empresa..." name="nome_cliente">
         <br /><br />
         <label for="">CPF/CNPJ</label>
@@ -32,5 +31,4 @@
         <button>Enviar Cadastro</button>
     </form>
 </body>
-
 </html>
