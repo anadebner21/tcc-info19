@@ -4,8 +4,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Models\Cliente;
 use App\Http\Controllers\ClienteController;
-
-
+use App\Http\Controllers\EstoqueController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -65,3 +64,5 @@ Route::put('/excluir-cliente/{id_do_cliente}', function ($id_do_cliente){
 
 Route:: resource("/cliente", ClienteController::class);
 
+
+Route::resource('/estoques', EstoqueController::class);

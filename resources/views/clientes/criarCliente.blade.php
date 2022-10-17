@@ -7,7 +7,7 @@
        
       <form action="{{ url('cliente') }}" method="post">
         {!! csrf_field() !!}
-        <label>Name</label></br>
+        <label>Nome</label></br>
         <input type="text" name="nome" id="nome" class="form-control"></br>
         <label>CPF/CNPJ</label></br>
         <input type="text" name="cpf_cnpj" id="cpf_cnpj" class="form-control"></br>
